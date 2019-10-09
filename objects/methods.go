@@ -491,7 +491,7 @@ func (e *Event) NewEvent() {
 					printGamerParams()
 				}
 			case Camp:
-				EventNow.TextAll = "Ты стоишь возле бывшего лагеря. Угли в костре еще тлеют, но сейчас тут никого нет.<br>Отличное место для ночлега.<br>"
+				EventNow.TextAll = "Ты стоишь возле бывшего лагеря. Угли в костре еще тлеют, но сейчас тут никого нет.<br>Отличное место для ночлега и приготовления стейка.<br>"
 				EventNow.Bonfire = true
 				switch EventNow.TypeEvent {
 				case Attack:
@@ -888,7 +888,7 @@ func (e *Event) NewEvent() {
 					printGamerParams()
 				}
 			case Camp:
-				EventNow.TextAll = "Ты стоишь возле бывшего лагеря. Угли в костре еще тлеют!<br>"
+				EventNow.TextAll = "Ты стоишь возле бывшего лагеря. Угли в костре еще тлеют! Можно поджарить мяса.<br>"
 				EventNow.Bonfire = true
 				switch EventNow.TypeEvent {
 				case Attack:
